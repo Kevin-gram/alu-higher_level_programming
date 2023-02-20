@@ -9,4 +9,3 @@ if __name__ == "__main__":
         for bl in range(1, length):
             add += int(sys.argv[bl])
     print(add)
-
