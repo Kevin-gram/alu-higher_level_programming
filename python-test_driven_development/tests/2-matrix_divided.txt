@@ -1,4 +1,4 @@
-The matrix_divided function is capable of dividing matrices that contain floating-point numbers.
+""" The matrix_divided function is capable of dividing matrices that contain floating-point numbers.
 
 If any elements in the matrix are not integers or floating-point numbers, the matrix_divided function will raise a TypeError.
 
@@ -16,4 +16,4 @@ If the divisor "div" is not an integer or a floating-point number, the matrix_di
 
 The matrix_divided function creates a copy of the original matrix, but each element is divided by the provided divisor, and the resulting matrix is returned.
 
-If the divisor "div" is equal to zero, the matrix_divided function will raise a ZeroDivisionError.
+If the divisor "div" is equal to zero, the matrix_divided function will raise a ZeroDivisionError. """
