@@ -1,0 +1,19 @@
+The matrix_divided function is capable of dividing matrices that contain floating-point numbers.
+
+If any elements in the matrix are not integers or floating-point numbers, the matrix_divided function will raise a TypeError.
+
+If the parameter "matrix" is not a list that contains lists consisting of integers or floating-point numbers, the matrix_divided function will raise a TypeError.
+
+The matrix_divided function rounds the quotients of the elements of the matrix to a maximum of two decimal places.
+
+The matrix_divided function returns a new matrix that is a duplicate of the original matrix, but with each element divided by the specified divisor.
+
+The matrix_divided function will raise a TypeError if the elements in the matrix are not integers or floating-point numbers.
+
+If any rows in the matrix have different lengths, the matrix_divided function will raise a TypeError, requiring all rows to be of the same length.
+
+If the divisor "div" is not an integer or a floating-point number, the matrix_divided function will raise a TypeError.
+
+The matrix_divided function creates a copy of the original matrix, but each element is divided by the provided divisor, and the resulting matrix is returned.
+
+If the divisor "div" is equal to zero, the matrix_divided function will raise a ZeroDivisionError.
