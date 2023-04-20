@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 '''
  the previous task? Did you test "Arizona'; TRUNCATE 
  TABLE states ; SELECT * FROM states WHERE name = '" as an input?
