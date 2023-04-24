@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""
+'''
 This script adds the State object
 "Louisiana" to our database `hbtn_0e_6_usa`.
-"""
+'''
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import (create_engine)
