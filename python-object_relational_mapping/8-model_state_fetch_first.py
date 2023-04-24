@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-All states via SQLAlchemy
+first State object from the database hbtn_0e_6_usa
 """
 
 from sys import argv
