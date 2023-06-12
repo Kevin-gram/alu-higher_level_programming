@@ -1,8 +1,8 @@
 #!/usr/bin/node
-const firstNum = parseInt(process.argv[2]);
+const first = parseInt(process.argv[2]);
 const fun = 'C is fun';
 if (!isNaN(first)) {
-  for (let i = 0; i < firstNum; i++) {
+  for (let i = 0; i < first; i++) {
     console.log(fun);
   }
 } else {
